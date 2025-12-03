@@ -17,27 +17,34 @@ int main() {
         printf("It's a draw!\n");
     }
     else if(player==0 && computer==1) {
-
+        printf("You loose!\n");
     }
     else if(player==0 && computer==2) {
+        printf("You Won!\n");
     }
     else if(player==1 && computer==0) {
+        printf("You Won!\n");
     }
     else if(player==1 && computer==1) {
+        printf("It's a draw!\n");
     }
     else if(player==1 && computer==2) {
+        printf("You loose!\n");
     }
     else if(player==2 && computer==0) {
+        printf("You loose!\n");
     }
     else if(player==2 && computer==1) {
+        printf("You Won!\n");
     }
     else if(player==2 && computer==2) {
+        printf("It's a draw!\n");
     }
-
-
-
-
-
+    else {
+        printf("Something went wrong :)");
+    }
+    return 0;
+}
 
 
 
