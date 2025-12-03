@@ -10,6 +10,7 @@ int main() {
     //1->paper
     //2->scissors
     printf("choose 0 for rock,\nchoose 1 for paper,\nchoose 2 for scissors\n");
+    printf("You choice:");
     scanf("%d",&player);
     printf("Computer chose:%d \n",computer);
 
