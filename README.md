@@ -22,3 +22,5 @@ Choose:
 ->scissors wins against paper.
 -
        
+->if both of yours and computer's choice are same- It's will a draw match!
+-
